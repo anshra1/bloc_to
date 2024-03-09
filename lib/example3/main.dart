@@ -38,10 +38,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (BuildContext context) => AppBloc(
-        loginApi: LoginApis.instance(),
-        notesApi: NotesApi(),
-        acceptedLoginHandle: const LoginHandle.foobar()
-      ),
+          loginApi: LoginApis.instance(),
+          notesApi: NotesApi(),
+          acceptedLoginHandle: const LoginHandle.foobar()),
       child: Scaffold(
         appBar: AppBar(
           title: const Text(homepage),
@@ -81,7 +80,7 @@ class HomePage extends StatelessWidget {
               return LoginView(
                 onLoginTapped: (email, password) {
                   context.read<AppBloc>().add(
-                         AppLogin(
+                        AppLogin(
                           email: email,
                           password: password,
                         ),
