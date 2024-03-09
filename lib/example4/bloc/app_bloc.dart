@@ -1,6 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:equatable/equatable.dart';
-import 'package:flutter/foundation.dart';
 import 'dart:math' as math;
 import 'package:flutter/services.dart';
 part 'app_event.dart';
