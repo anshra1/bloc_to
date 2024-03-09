@@ -5,5 +5,8 @@
      "editor.fontFamily": "JetBrains Mono",
      "editor.codeLensFontFamily": "JetBrains Mono",
      "editor.mouseWheelZoom": true,
-     "window.zoomLevel": 0.3
+     "window.zoomLevel": 0.3,
+     "terminal.integrated.defaultProfile.windows": "",
+     "terminal.integrated.fontSize": 17,
+     "terminal.integrated.fontFamily": "JetBrains Mono"
 }
