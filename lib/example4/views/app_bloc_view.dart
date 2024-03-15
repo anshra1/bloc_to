@@ -28,7 +28,7 @@ class AppBlocView<T extends AppBloc> extends StatelessWidget {
           } else if (state.data != null) {
             return Image.memory(
               state.data!,
-              fit: BoxFit.fitHeight,
+              fit: BoxFit.fitWidth,
             );
           } else {
             return const Center(

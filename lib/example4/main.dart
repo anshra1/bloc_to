@@ -1,4 +1,3 @@
-import 'package:bloc_learning/example3/bloc/bloc/app_bloc.dart';
 import 'package:bloc_learning/example4/bloc/bottom_bloc.dart';
 import 'package:bloc_learning/example4/bloc/top_bloc.dart';
 import 'package:bloc_learning/example4/model/constants.dart';
@@ -65,3 +64,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+

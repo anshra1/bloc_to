@@ -5,24 +5,5 @@ abstract class AppEvent {
 }
 
 class LoadNextUrlEvent implements AppEvent {
-
   const LoadNextUrlEvent();
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
